@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mathesh</title>
+</head>
+<body>
+    <header>
+        <h1>Mathesh Yogeswaran</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer with a focus on creating user-friendly and engaging websites.</p>
+        </section>
+        
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project" onclick="showProjectDetails(1)">
+                <h3>EPRS</h3>
+                <p>Develop an appropriate & effective employee performance review
+                    system (EPRS) to review the performance of an employee using the</p>
+            </div>
+            <div class="project" onclick="showProjectDetails(2)">
+                <h3>Corn Flakes Maker</h3>
+                <p>A System that make Cornflakes for Office Employees based on
+                    RFID</p>
+            </div>
+        </section>
+        
+        <section class="project-details" id="project-details">
+            <h2>Project Details</h2>
+            <div id="project-content">
+               
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Contact me at <a href="m@gmail.com">m@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
